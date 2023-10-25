@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     fun ApiIntApp() {
-        var apiInt by remember { mutableStateOf("Press the button to fetch a cat fact!") }
+        var apiInt by remember { mutableStateOf("Press the button Fetch API ") }
 
         Column(
             modifier = Modifier.fillMaxSize(),

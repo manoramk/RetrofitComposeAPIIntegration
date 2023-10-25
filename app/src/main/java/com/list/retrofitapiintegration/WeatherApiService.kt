@@ -10,6 +10,6 @@ interface WeatherApiService {
     fun getWeatherData(
         @Query("q") city: String?,
         @Query("appid") apiKey: String?
-    ): Call<WeatherResponse?>?
+    ): Call<MainActivity.WeatherResponse?>?
 }
 
